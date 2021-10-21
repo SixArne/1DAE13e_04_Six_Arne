@@ -16,7 +16,7 @@ void Draw()
 	utils::SetColor(Color4f{0.0f, 0.0f, 0.0f, 0.3f});
 	utils::FillRect(Rectf(0,0, g_WindowWidth, g_WindowHeight));
 
-	utils::SetColor(Color4f{0.8f, 0.f, 0.f, 0.8f});
+	utils::SetColor(Color4f{0.0f, 0.8f, 0.f, 0.8f});
 	utils::FillRect(g_MousePosition.x, g_MousePosition.y, 10, 10);
 }
 
